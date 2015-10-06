@@ -29,6 +29,7 @@
             NSArray *arg = va_arg(args, NSArray*);
             if (![arg isKindOfClass:[NSArray class]]) {
                 NSLog(@"Error: Object bound to `[?]` is not an NSArray in the query (%@) (executeUpdateWithInOperator)", sql);
+                return NO;
             }
             currentLocation = squBrakQuestRange.location + squBrakQuestRange.length;
             [newArguments addObjectsFromArray:arg];

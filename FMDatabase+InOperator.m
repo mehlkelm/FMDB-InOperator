@@ -1,5 +1,5 @@
 //
-//  FMDatabase_InOperator.h
+//  FMDatabase+InOperator.m
 //  zoziapps.ch
 //
 //  Created by Stefan Pauwels on 06.10.15.

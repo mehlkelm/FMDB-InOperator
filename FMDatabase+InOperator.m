@@ -10,7 +10,6 @@
 
 @implementation FMDatabase (InOperator)
 
-
 - (BOOL)executeUpdateWithInOperator:(NSString *)sql, ... {
     va_list args;
     va_start(args, sql);

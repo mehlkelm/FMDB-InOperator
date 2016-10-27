@@ -7,6 +7,8 @@
 
 #import "FMDatabase.h"
 
+@interface FMDatabase (InOperator)
+
 /**
  
  This method executes a single SQL update statement can handle arrays for MySQL IN-Operators.
